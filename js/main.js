@@ -14,7 +14,7 @@
 
   var fxPref = load('inat-fx');
   var fxOn = fxPref ? fxPref === 'on' : !reduceMotion;
-  var sndOn = load('inat-snd') === 'on';
+  var sndOn = load('inat-snd') !== 'off';
   root.classList.toggle('no-fx', !fxOn);
 
   var ch = body.getAttribute('data-ch') || '00';
@@ -101,11 +101,19 @@
 
   var actx = null;
 
+  function audio() {
+    if (!actx) {
+      if (navigator.userActivation && !navigator.userActivation.hasBeenActive) return null;
+      try { actx = new (window.AudioContext || window.webkitAudioContext)(); } catch (e) { return null; }
+    }
+    if (actx.state === 'suspended') actx.resume();
+    return actx;
+  }
+
   function beep(freq, dur, type, vol) {
     if (!sndOn) return;
+    if (!audio()) return;
     try {
-      if (!actx) actx = new (window.AudioContext || window.webkitAudioContext)();
-      if (actx.state === 'suspended') actx.resume();
       var now = actx.currentTime;
       var o = actx.createOscillator();
       var g = actx.createGain();
@@ -122,8 +130,8 @@
 
   function clunk() {
     if (!sndOn) return;
+    if (!audio()) return;
     try {
-      if (!actx) actx = new (window.AudioContext || window.webkitAudioContext)();
       var now = actx.currentTime;
       var len = Math.floor(actx.sampleRate * 0.09);
       var buf = actx.createBuffer(1, len, actx.sampleRate);

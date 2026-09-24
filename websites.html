@@ -38,7 +38,7 @@
     <a href="misc.html" data-ch="07">misc</a>
     <span class="knobs">
       <button type="button" data-toggle="fx" aria-pressed="true">fx on</button>
-      <button type="button" data-toggle="snd" aria-pressed="false">snd off</button>
+      <button type="button" data-toggle="snd" aria-pressed="true">snd on</button>
     </span>
   </nav>
 </header>
@@ -48,7 +48,7 @@
   <div class="page-head">
     <p class="ch-label">ch04 / websites</p>
     <h1 class="goth glitch" data-text="Websites">Websites</h1>
-    <p class="lede">Other corners of the internet I built. Every one of them gets its own tv. Right now the only one on the air is showing this page, which I thought was funnier than it turned out to be.</p>
+    <p class="lede">Other corners of the internet I built. Every one of them gets its own tv, and one of them is showing this page, which I thought was funnier than it turned out to be.</p>
   </div>
 
   <section aria-labelledby="air-h">
@@ -56,6 +56,42 @@
     <p class="shelf-note">Sites I designed, coded, or both. Nothing opens in a new tab, the back button still works like it's 1999.</p>
 
     <div class="shelf tv-wall">
+
+      <article class="site" aria-labelledby="site-reliquary-h">
+        <div class="tv tv--wood">
+          <span class="tv-ears" aria-hidden="true"></span>
+          <div class="tv-screen">
+            <img src="img/websites/reliquary.jpg" alt="The Reliquary's entry gate: a gold gothic title, a choice between Moth and Crow, and a passphrase box" width="640" height="480" loading="lazy">
+          </div>
+          <div class="tv-panel" aria-hidden="true">
+            <span class="tv-ch">04.1</span>
+            <span class="tv-knob"></span>
+            <span class="tv-knob"></span>
+            <span class="tv-grille"></span>
+            <span class="tv-led"></span>
+          </div>
+          <span class="stamp">live</span>
+        </div>
+        <h3 id="site-reliquary-h">The Reliquary</h3>
+        <p class="site-url">petardeveloper.github.io/reliquary</p>
+        <p class="site-blurb">A private gothic keepsake app for two people. Shared memories, photos, trips and places on a map, all in one spot. The live one is a showcase with two made-up people, and the source is free to take and turn into a gift for someone.</p>
+        <dl class="site-specs">
+          <dt>year</dt><dd>2026</dd>
+          <dt>role</dt><dd>design + code</dd>
+          <dt>for</dt><dd>couples</dd>
+        </dl>
+        <ul class="tags" aria-label="Built with">
+          <li class="tag">html</li>
+          <li class="tag">css</li>
+          <li class="tag">javascript</li>
+          <li class="tag">leaflet</li>
+          <li class="tag">h3</li>
+        </ul>
+        <div class="btns">
+          <a class="btn btn--blood" href="https://petardeveloper.github.io/reliquary/" rel="noopener"><span aria-hidden="true">&#9658;</span> visit<span class="sr-only"> The Reliquary</span></a>
+          <a class="btn btn--ghost" href="https://github.com/petardeveloper/reliquary" rel="noopener">source<span class="sr-only"> for The Reliquary</span></a>
+        </div>
+      </article>
 
       <article class="site site--here">
         <div class="tv">
@@ -67,7 +103,7 @@
             </div>
           </div>
           <div class="tv-panel" aria-hidden="true">
-            <span class="tv-ch">04.1</span>
+            <span class="tv-ch">04.2</span>
             <span class="tv-knob"></span>
             <span class="tv-knob"></span>
             <span class="tv-grille"></span>
@@ -94,24 +130,6 @@
         </div>
         <p class="note">right click, view source. that's the whole stack.</p>
       </article>
-
-      <div class="site">
-        <div class="tv tv--wood">
-          <span class="tv-ears" aria-hidden="true"></span>
-          <div class="tv-screen">
-            <div class="nosignal" data-label="stay tuned"></div>
-          </div>
-          <div class="tv-panel" aria-hidden="true">
-            <span class="tv-ch">04.2</span>
-            <span class="tv-knob"></span>
-            <span class="tv-knob"></span>
-            <span class="tv-grille"></span>
-            <span class="tv-led tv-led--off"></span>
-          </div>
-        </div>
-        <h3>More channels soon</h3>
-        <p class="site-blurb">I haven't put the other sites up here yet. When I do, each one gets a tv of its own.</p>
-      </div>
 
     </div>
   </section>

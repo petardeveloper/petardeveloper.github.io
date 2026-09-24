@@ -13,7 +13,7 @@ Source for [petardeveloper.github.io](https://petardeveloper.github.io), the hom
 - **a spinning PS1 coffin**, drawn by a tiny software renderer into a 160x120 canvas: affine texture mapping, vertices snapped to whole pixels, painter's sort instead of a z buffer and a 4x4 Bayer dither down to 4 bits per channel. You can drag it
 - **every section is a channel**. Switching pages plays a burst of static, fast forward or rewind depending on which way you're going
 - **set pieces instead of cards**: itch games are burned CD-Rs in paper sleeves, Steam games are PS1 jewel cases, papers are archive case files with a DOS index, websites are CRT TVs, the backstory is a camcorder tape
-- **sound**, all synthesized with the Web Audio API. Off by default
+- **sound**, all synthesized with the Web Audio API. On from the first click, the SND switch turns it off
 - **an FX switch** in the header that kills the motion and remembers it. It's off from the start if your OS has reduce motion turned on
 - **the Steam widget only loads when you click it**, so nobody gets Steam's cookies just for scrolling past
 - one old cheat code still works
