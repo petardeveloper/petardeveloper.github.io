@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inat Studio</title>
+  <meta name="description" content="Inat Studio is Petar Stevović, one stubborn guy from Belgrade. Games, research papers, apps, websites and writing, all in one place.">
+  <meta name="theme-color" content="#07070a">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Inat Studio">
+  <meta property="og:description" content="Games, research, apps, websites and other things made out of spite.">
+  <meta property="og:image" content="https://petardeveloper.github.io/img/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Permanent+Marker&family=Pirata+One&family=UnifrakturMaguntia&family=VT323&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    (function (d) { d.classList.add('js'); try { if (sessionStorage.getItem('inat-booted')) d.classList.add('booted'); var fx = localStorage.getItem('inat-fx'); if (fx === 'off' || (!fx && window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches)) d.classList.add('no-fx'); } catch (e) {} })(document.documentElement);
+  </script>
+  <script src="js/main.js" defer></script>
+  <script src="js/psx.js" defer></script>
+</head>
+<body data-ch="00">
+
+<a class="skip" href="#main">skip to content</a>
+
+<div class="boot" id="boot" data-stage="blue" aria-hidden="true">
+  <div class="boot-blue"><span>&#9658; PLAY</span></div>
+  <div class="boot-warn">
+    <div>
+      <h2>WARNING</h2>
+      <p>This tape contains games, research, software and other things made out of spite.</p>
+      <p>Copying is fine honestly. Please do not tape over it.</p>
+    </div>
+  </div>
+  <div class="boot-static"></div>
+  <span class="boot-skip">press any key</span>
+</div>
+
+<header class="top" id="top">
+  <a class="brand" href="index.html" data-ch="00" aria-current="page">Inat<small>studio</small></a>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">menu</button>
+  <nav class="menu" id="menu" aria-label="Main">
+    <a href="games.html" data-ch="01">games</a>
+    <a href="research.html" data-ch="02">research</a>
+    <a href="apps.html" data-ch="03">apps</a>
+    <a href="websites.html" data-ch="04">websites</a>
+    <a href="backstory.html" data-ch="05">backstory</a>
+    <a href="writings.html" data-ch="06">writings</a>
+    <a href="misc.html" data-ch="07">misc</a>
+    <span class="knobs">
+      <button type="button" data-toggle="fx" aria-pressed="true">fx on</button>
+      <button type="button" data-toggle="snd" aria-pressed="false">snd off</button>
+    </span>
+  </nav>
+</header>
+
+<main id="main" class="wrap">
+
+  <section class="hero">
+    <div>
+      <p class="ch-label">ch00 / home</p>
+      <h1 class="goth glitch" data-text="Inat Studio">Inat Studio</h1>
+      <p class="def"><b>inat</b> <i>(n.)</i> spite. stubbornness. doing the thing anyway, mostly because someone said you couldn't.</p>
+      <p class="lede">Inat Studio is me, Petar Stevović, one stubborn guy from Belgrade who doesn't know when to quit. This is where I keep the games, research papers, apps, websites and whatever else I end up making. Pick a tape.</p>
+    </div>
+
+    <figure class="psx-frame">
+      <canvas id="psx" width="160" height="120" role="img" aria-label="A low poly coffin with a brass cross on the lid, slowly spinning"></canvas>
+      <figcaption>fig. 1: it spins. you can drag it.</figcaption>
+    </figure>
+  </section>
+
+  <section aria-labelledby="tapes-h">
+    <h2 class="shelf-title" id="tapes-h">The tapes <span class="count">7 tapes / t-120</span></h2>
+
+    <ul class="pile">
+      <li>
+        <a class="tape" href="games.html" data-ch="01">
+          <span class="tape-ch">01</span>
+          <span class="tape-label"><span class="tape-title">Games</span><span class="tape-scribble">itch + steam</span></span>
+          <span class="tape-meta">T-120<br>SP</span>
+        </a>
+      </li>
+      <li>
+        <a class="tape" href="research.html" data-ch="02">
+          <span class="tape-ch">02</span>
+          <span class="tape-label"><span class="tape-title">Research papers</span><span class="tape-scribble">pdfs inside</span></span>
+          <span class="tape-meta">T-160<br>LP</span>
+        </a>
+      </li>
+      <li>
+        <a class="tape" href="apps.html" data-ch="03">
+          <span class="tape-ch">03</span>
+          <span class="tape-label"><span class="tape-title">Apps</span><span class="tape-scribble">not yet!!</span></span>
+          <span class="tape-meta">T-120<br>SP</span>
+        </a>
+      </li>
+      <li>
+        <a class="tape" href="websites.html" data-ch="04">
+          <span class="tape-ch">04</span>
+          <span class="tape-label"><span class="tape-title">Websites</span><span class="tape-scribble">still recording</span></span>
+          <span class="tape-meta">T-90<br>SP</span>
+        </a>
+      </li>
+      <li>
+        <a class="tape" href="backstory.html" data-ch="05">
+          <span class="tape-ch">05</span>
+          <span class="tape-label"><span class="tape-title">Backstory</span><span class="tape-scribble">if anyone cares</span></span>
+          <span class="tape-meta">T-60<br>EP</span>
+        </a>
+      </li>
+      <li>
+        <a class="tape" href="writings.html" data-ch="06">
+          <span class="tape-ch">06</span>
+          <span class="tape-label"><span class="tape-title">Writings</span><span class="tape-scribble">still blank</span></span>
+          <span class="tape-meta">T-120<br>LP</span>
+        </a>
+      </li>
+      <li>
+        <a class="tape" href="misc.html" data-ch="07">
+          <span class="tape-ch">07</span>
+          <span class="tape-label"><span class="tape-title">Misc</span><span class="tape-scribble">contact + junk</span></span>
+          <span class="tape-meta">T-30<br>SP</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <div class="rule"><span></span></div>
+
+  <div class="home-cols">
+    <section aria-labelledby="log-h">
+      <h2 class="shelf-title" id="log-h">Tape log</h2>
+      <ol class="log-list">
+        <li><time datetime="2026-09-24">24.09.2026</time> <span>Site goes up.</span></li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="now-h">
+      <h2 class="shelf-title" id="now-h">Right now</h2>
+      <div class="card now-card">
+        <dl>
+          <dt>working on</dt>
+          <dd><a href="https://store.steampowered.com/app/5175890/The_Seventh_Circle/" rel="noopener">The Seventh Circle</a></dd>
+          <dt>stuck on</dt>
+          <dd>Marketing...</dd>
+          <dt>last thing shipped</dt>
+          <dd><a href="https://store.steampowered.com/app/5175890/The_Seventh_Circle/" rel="noopener">The Seventh Circle demo</a>, on Steam</dd>
+        </dl>
+        <p class="mono">&#9658; <a href="misc.html" data-ch="07">say hi</a></p>
+      </div>
+    </section>
+  </div>
+
+</main>
+
+<footer class="foot">
+  <p>&copy; <span data-year>2026</span> Inat Studio. Made out of spite.</p>
+  <p>no cookies. no analytics. just tapes.</p>
+  <p><a href="#top"><span aria-hidden="true">&#9650;</span> rewind</a></p>
+</footer>
+
+</body>
+</html>
