@@ -48,34 +48,75 @@
   <div class="page-head">
     <p class="ch-label">ch03 / apps</p>
     <h1 class="goth glitch" data-text="Apps">Apps</h1>
-    <p class="lede">Software I made that isn't a game. I haven't put any of it up yet, the disks are still being written.</p>
+    <p class="lede">Software I made that isn't a game. One disk so far, more once I finish writing them.</p>
   </div>
 
   <section aria-labelledby="disks-h">
     <h2 class="shelf-title" id="disks-h">The disks <span class="count">high density, low budget</span></h2>
 
-    <article class="app" aria-labelledby="app-wip-h">
+    <article class="app" aria-labelledby="app-penance-h">
       <div class="app-media">
         <div class="floppy floppy--red" aria-hidden="true">
           <span class="floppy-shutter"></span>
           <span class="floppy-label">
-            <span class="floppy-title">wip</span>
-            <span class="floppy-scribble">dont format!!</span>
+            <span class="floppy-title">penance</span>
+            <span class="floppy-scribble">v2.1 dont format!!</span>
           </span>
-          <span class="stamp">blank</span>
+        </div>
+        <div class="app-shot">
+          <img src="img/apps/penance.webp" alt="Penance's home screen: 2,200 kcal left today, protein, carbs and fat bars, a few high protein food suggestions and the spinning coffin in the corner" width="800" height="600" loading="lazy">
         </div>
       </div>
 
       <div class="card">
-        <h3 id="app-wip-h">I'm still writing the disks</h3>
-        <p class="app-line">Nothing to download yet. I'll put them up here once they're ready.</p>
-        <p>Meanwhile, go play something on the games tape.</p>
+        <h3 id="app-penance-h">Penance</h3>
+        <p class="app-line">A calorie, macro and gym tracker for a cut, dressed up like this site.</p>
+        <p>You build meals out of ingredients once and after that a whole plate is a tap. Workouts come from a push / pull / legs split where legs only come around every two weeks (you can change that). On top of it there are souls, ranks, caskets and 62 relics, because I can't do anything without a reward loop. It all stays on your computer, nothing gets uploaded anywhere.</p>
+        <dl class="app-specs">
+          <div><dt>version</dt><dd>2.1.0</dd></div>
+          <div><dt>runs on</dt><dd>windows 10 / 11</dd></div>
+          <div><dt>size</dt><dd>88 mb</dd></div>
+          <div><dt>price</dt><dd>free</dd></div>
+        </dl>
         <div class="btns">
-          <a class="btn btn--blood" href="games.html" data-ch="01"><span aria-hidden="true">&#9658;</span> ch01 / games</a>
+          <a class="btn btn--blood" href="files/apps/Penance-2.1.0-win64.exe" download><span aria-hidden="true">&#9658;</span> download<span class="sr-only"> Penance for Windows</span> <small>exe, 88 mb</small></a>
         </div>
+        <p class="app-label">sha-256</p>
+        <ul class="sums">
+          <li><span>Penance-2.1.0-win64.exe</span><code id="sum-penance">4bbe5431ad8ac999472ec706b27326ca6f64c333279f301aa83bb1634bcd4ca8</code><button type="button" class="btn btn--ghost" data-copy="#sum-penance">copy<span class="sr-only"> the checksum</span></button></li>
+        </ul>
       </div>
     </article>
 
+  </section>
+
+  <section aria-labelledby="readme-h">
+    <h2 class="shelf-title" id="readme-h">readme.txt <span class="count">read before running</span></h2>
+    <div class="readme">
+      <div>
+        <h3>Windows is going to complain</h3>
+        <p>The exe isn't code signed (that costs money and I'm spending it on gas), so the first time you run it SmartScreen pops this up:</p>
+        <div class="dlg" role="img" aria-label="The Windows protected your PC dialog. Click More info, then Run anyway.">
+          <div class="dlg-bar"><span>Windows protected your PC</span><span class="dlg-x" aria-hidden="true">x</span></div>
+          <div class="dlg-body">
+            <span class="dlg-icon" aria-hidden="true">!</span>
+            <ol class="dlg-steps">
+              <li>click <kbd>More info</kbd></li>
+              <li>then <kbd>Run anyway</kbd></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="readme-side">
+        <h3>Installing</h3>
+        <ul class="readme-os">
+          <li><b>1.</b> Run <code>Penance-2.1.0-win64.exe</code>, pick where it should go and hit Extract.</li>
+          <li><b>2.</b> Open the <code>Penance</code> folder it made and start <code>Penance.exe</code>. Pin it to the taskbar while you're at it.</li>
+        </ul>
+        <h3>Your data</h3>
+        <p>Saved in <code>%APPDATA%\ShredQuest</code>, with a daily backup next to it. To update, extract the new version over the old folder. Your data doesn't live in there, so it stays put.</p>
+      </div>
+    </div>
   </section>
 
 </main>
