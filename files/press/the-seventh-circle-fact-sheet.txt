@@ -1,0 +1,90 @@
+THE SEVENTH CIRCLE
+press kit / fact sheet
+
+
+THE FACTS
+
+game          The Seventh Circle
+developer     Inat Studio
+publisher     Inat Studio
+based in      Belgrade, Serbia
+release       planned for November 2026
+demo          out now on Steam
+platform      Windows
+engine        Unity
+price         not announced yet
+genre         retro movement shooter roguelike
+
+steam         https://store.steampowered.com/app/5175890/The_Seventh_Circle/
+press kit     https://petardeveloper.github.io/seventh-circle/
+website       https://petardeveloper.github.io
+contact       petar.dev04@gmail.com
+instagram     @inatstudio  https://www.instagram.com/inatstudio/
+itch.io       https://petardev.itch.io
+
+
+THE PITCH
+
+Ever wanted something so bad you were ready to slaughter hordes of demons for it? Yeah, so does Nikola Tesla apparently...
+
+
+SHORT DESCRIPTION
+
+Retro movement shooter roguelike in which you smash through the hordes of hell in search of a wish, while getting sponsored by patrons of questionable ethics and eldritch origin.
+
+
+LONG DESCRIPTION
+
+The Seventh Circle is a retro movement shooter roguelike. You smash through the hordes of hell in search of a wish, and along the way you get sponsored by patrons of questionable ethics and eldritch origin.
+
+There are multiple champions and patrons, each with their own mechanics, and you can mix and match them. There are passive and active weapons with primary and alt fire, and you can evolve them.
+
+Movement is the core of it. You get very fast.
+
+It's a first person 3D boomer shooter with pixel graphics and a gothic horror look. And yes, Nikola Tesla is playable.
+
+Made in Unity, for Windows. The demo is out now on Steam and the full release is planned for November 2026.
+
+
+FEATURES
+
+- retro movement shooter roguelike, first person 3D
+- movement is the core, you get very fast
+- multiple champions and patrons with unique mechanics to mix and match
+- passive and active weapons with primary and alt fire that you can evolve
+- pixel graphics, gothic horror, boomer shooter
+- Nikola Tesla is playable
+
+
+ABOUT INAT STUDIO
+
+Inat Studio is Petar, one stubborn guy from Belgrade, Serbia. "Inat" is Serbian for spite, or stubbornness.
+
+The Seventh Circle is the big one. The smaller games are on itch.io, and two of them took first place at their jams: Pulsar at the Engage Gamejam 2026 and Petals of Madness at the OpenIT gamejam. The others are JOvanka JOlic's Bizarre Adventure, Pozoriste Puz and CyberHaze.
+
+
+IN THE ZIP
+
+the-seventh-circle-logo-1280x720.png                      logo, transparent
+the-seventh-circle-vii-badge-244x244.png                  VII badge, transparent
+the-seventh-circle-vii-badge-976x976.png                  VII badge, transparent, 4x
+the-seventh-circle-key-art-1232x706.jpg                   key art with the logo
+the-seventh-circle-key-art-no-logo-3840x1240.png          key art, no logo
+the-seventh-circle-key-art-vertical-748x896.jpg           vertical key art
+the-seventh-circle-capsule-header-920x430.jpg             steam header capsule
+the-seventh-circle-capsule-small-462x174.png              steam small capsule
+the-seventh-circle-capsule-library-600x900.png            steam library capsule
+the-seventh-circle-capsule-library-header-920x430.png     steam library header
+the-seventh-circle-event-cover-800x450.jpg                event cover
+the-seventh-circle-event-cover-demo-out-800x450.jpg       event cover, demo out now
+the-seventh-circle-event-header-1920x622.jpg              event header
+the-seventh-circle-event-header-demo-out-1920x622.jpg     event header, demo out now
+inat-studio-88x31.png                                     studio button, actual size
+inat-studio-880x310.png                                   studio button, big
+inat-studio-1760x620.png                                  studio button, bigger
+the-seventh-circle-fact-sheet.txt                         this file
+
+Screenshots come straight from the game, so they live on the Steam page:
+https://store.steampowered.com/app/5175890/The_Seventh_Circle/
+
+It's all pixel art. If you scale it up, use whole numbers (2x, 3x, 4x) with smoothing off and it stays crisp.

@@ -2963,3 +2963,166 @@ html.no-fx .glitch::after { display: none; }
 @media (max-width: 360px) {
   .cs-hint { display: none; }
 }
+
+.press-art { margin: 0; }
+.press-art img {
+  width: 100%;
+  height: auto;
+  background: #050407;
+  border: 1px solid var(--line);
+  box-shadow: 0 0 0 6px #0b0a0e, 0 0 0 7px var(--line), 0 0 90px rgba(155,17,30,.2);
+}
+.press-art figcaption,
+.deck figcaption {
+  margin-top: 1rem;
+  font-family: var(--mono);
+  font-size: 1.15rem;
+  color: var(--ash);
+}
+.press-cta { margin-top: 1.5rem; }
+
+.press-facts,
+.press-about {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr);
+  gap: 2.5rem 3rem;
+  align-items: start;
+}
+.press-facts .specs dd { overflow-wrap: anywhere; }
+.press-facts .specs a { color: var(--bone); }
+
+.press-pitch .ch-label { margin-bottom: .5rem; }
+.press-pitch .btns + .ch-label { margin-top: 2.4rem; }
+.press-line {
+  margin: 0 0 .9rem;
+  font-family: var(--head);
+  font-size: clamp(1.9rem, 3.6vw, 2.5rem);
+  line-height: 1.12;
+  text-wrap: balance;
+}
+.press-line em {
+  font-style: normal;
+  color: #e8f6ff;
+  text-shadow: 0 0 4px #9fd8ff, 0 0 16px rgba(159,216,255,.55);
+}
+.press-short {
+  max-width: 46ch;
+  font-size: 1.2rem;
+  color: var(--bone-dim);
+}
+
+.press-feats ul { margin: .8rem 0 0; padding-left: 1.4em; }
+.press-feats li {
+  margin-bottom: .55rem;
+  font-size: 1.1rem;
+  line-height: 1.45;
+  color: var(--bone-dim);
+}
+.press-feats li::marker { content: "\25BA  "; color: var(--blood-hot); }
+
+.press-about .def + .btns { margin-top: 1.6rem; }
+
+.deck { margin: 2.5rem 0 0; }
+.deck-hand {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr)) 212px;
+  align-items: start;
+  max-width: 1060px;
+  padding-top: 20px;
+}
+.deck-card {
+  grid-row: 1;
+  width: 212px;
+  padding: 5px;
+  background: #141217;
+  box-shadow: inset 0 0 0 1px var(--line-2), 0 0 0 1px #000, 0 10px 26px rgba(0,0,0,.8);
+  transition: transform .25s cubic-bezier(.2, .8, .2, 1);
+}
+.deck-card img {
+  width: 200px;
+  height: 330px;
+  image-rendering: pixelated;
+  outline: 1px solid rgba(155,17,30,.6);
+}
+.deck-card:nth-child(1),
+.deck-card:nth-child(7) { z-index: 1; margin-top: 32px; }
+.deck-card:nth-child(2),
+.deck-card:nth-child(6) { z-index: 2; margin-top: 14px; }
+.deck-card:nth-child(3),
+.deck-card:nth-child(5) { z-index: 3; margin-top: 4px; }
+.deck-card--top {
+  z-index: 4;
+  box-shadow: inset 0 0 0 1px var(--line-2), 0 0 0 1px #000, 0 10px 26px rgba(0,0,0,.8), 0 0 34px rgba(159,216,255,.18);
+}
+.deck-card--top img { outline-color: rgba(159,216,255,.6); }
+.deck-card:hover {
+  z-index: 5;
+  transform: translateY(-20px);
+}
+
+.press-files {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2.5rem 2rem;
+  margin-top: 2.25rem;
+}
+.press-file h3 {
+  margin: 1.2rem 0 .1rem;
+  font-family: var(--head);
+  font-size: 1.7rem;
+}
+.press-file.steam-box { align-self: start; }
+.press-file.steam-box h3 { margin-top: 0; color: var(--bone); }
+.press-meta {
+  margin: 0 0 .75rem;
+  font-family: var(--mono);
+  font-size: 1.15rem;
+  color: var(--ash);
+}
+.press-file .btn { font-size: 1.15rem; }
+
+.press-thumb {
+  display: grid;
+  grid-template: minmax(0, 1fr) / minmax(0, 1fr);
+  place-items: center;
+  aspect-ratio: 16 / 10;
+  padding: 6%;
+  overflow: hidden;
+  background: radial-gradient(circle at 50% 45%, #2a0a0c, #0b0b0d 70%);
+  border: 1px solid var(--line);
+  box-shadow: 0 0 0 5px #0b0a0e, 0 0 0 6px var(--line);
+}
+.press-thumb--clear { background: repeating-conic-gradient(#16141b 0 25%, #0c0b0f 0 50%) 0 0 / 14px 14px; }
+.press-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 900px) {
+  .press-facts,
+  .press-about { grid-template-columns: minmax(0, 1fr); gap: 2rem; }
+}
+
+@media (max-width: 760px) {
+  .deck-hand {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px 10px;
+    padding-top: 0;
+  }
+  .deck-card,
+  .deck-card:nth-child(n) {
+    grid-row: auto;
+    z-index: auto;
+    width: auto;
+    margin-top: 0;
+    padding: 3px;
+    box-shadow: inset 0 0 0 1px var(--line-2), 0 0 0 1px #000, 0 6px 14px rgba(0,0,0,.6);
+  }
+  .deck-card img {
+    width: 100%;
+    height: auto;
+    image-rendering: auto;
+  }
+  .deck-card:hover { transform: none; }
+}

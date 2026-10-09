@@ -36,6 +36,7 @@ backstory.html    backstory
 writings.html     writings
 misc.html         contact, links, colophon
 404.html          lost tape
+seventh-circle/   press kit for The Seventh Circle
 
 css/style.css     all of the styling
 js/main.js        overlay, on screen display, page static, boot tape, sound
@@ -43,6 +44,7 @@ js/psx.js         the coffin renderer
 
 img/              covers, screenshots, photos
 files/papers/     the papers as pdf
+files/press/      press kit zip + fact sheet
 files/apps/       app downloads
 ```
 
