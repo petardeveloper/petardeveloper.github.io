@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Apps | Inat Studio</title>
-  <meta name="description" content="Apps and tools by Inat Studio. Nothing to download yet, the disks are still being written.">
+  <meta name="description" content="Apps and tools by Inat Studio: Penance, a calorie and gym tracker, and NEON ATLAS, a live 3D map of Serbia.">
   <meta name="theme-color" content="#07070a">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Apps | Inat Studio">
-  <meta property="og:description" content="Software that isn't a game. Nothing to download yet, the disks are still being written.">
+  <meta property="og:description" content="Software that isn't a game: Penance, a calorie and gym tracker, and NEON ATLAS, a live 3D map of Serbia.">
   <meta property="og:image" content="https://petardeveloper.github.io/img/og.png">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -48,7 +48,7 @@
   <div class="page-head">
     <p class="ch-label">ch03 / apps</p>
     <h1 class="goth glitch" data-text="Apps">Apps</h1>
-    <p class="lede">Software I made that isn't a game. One disk so far, more once I finish writing them.</p>
+    <p class="lede">Software I made that isn't a game. Two disks so far, more once I finish writing them.</p>
   </div>
 
   <section aria-labelledby="disks-h">
@@ -88,6 +88,43 @@
       </div>
     </article>
 
+    <article class="app" aria-labelledby="app-atlas-h">
+      <div class="app-media">
+        <div class="floppy floppy--yellow" aria-hidden="true">
+          <span class="floppy-shutter"></span>
+          <span class="floppy-label">
+            <span class="floppy-title">neon atlas</span>
+            <span class="floppy-scribble">v0.3 eyes on srb</span>
+          </span>
+        </div>
+        <div class="app-shot">
+          <img src="img/apps/neon-atlas.webp" alt="NEON ATLAS zoomed in on Serbia: a black and red map with live planes, the sector panel with flight counts and election results on the left, and a CCTV monitor showing a wall of live camera feeds from the Batrovci border crossing" width="800" height="600" loading="lazy">
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 id="app-atlas-h">NEON ATLAS</h3>
+        <p class="app-line">A 3D globe that keeps an eye on Serbia, dressed up like Night City.</p>
+        <p>Live planes over Serbia (the military ones too), every border crossing with its police cameras and wait times, the election count by municipality, roadworks and landslides, planned power cuts, air quality, weather, earthquakes (plus the mine blasts around Bor that the seismographs pick up) and the news, pinned to the town it's about. Click a camera and it opens in a little CCTV monitor you can zoom into, or a wall of nine. All of it is public data, pulled straight from whoever publishes it: the police, the electoral commission, EPS, Putevi Srbije and the rest. Zoom out and it does the whole planet too: thousands of planes, satellites and six thousand traffic cams. No account and no tracking.</p>
+        <dl class="app-specs">
+          <div><dt>version</dt><dd>0.3.1</dd></div>
+          <div><dt>runs on</dt><dd>windows 10 / 11</dd></div>
+          <div><dt>size</dt><dd>115 mb</dd></div>
+          <div><dt>needs</dt><dd>internet</dd></div>
+          <div><dt>price</dt><dd>free</dd></div>
+        </dl>
+        <div class="btns">
+          <a class="btn btn--blood" href="https://github.com/petardeveloper/petardeveloper.github.io/releases/download/neon-atlas-v0.3.1/NEON-ATLAS-Setup-0.3.1.exe"><span aria-hidden="true">&#9658;</span> download<span class="sr-only"> NEON ATLAS installer for Windows</span> <small>installer, 115 mb</small></a>
+          <a class="btn btn--ghost" href="https://github.com/petardeveloper/petardeveloper.github.io/releases/download/neon-atlas-v0.3.1/NEON-ATLAS-Portable-0.3.1.exe">portable<span class="sr-only"> NEON ATLAS for Windows, no install</span> <small>exe, 115 mb</small></a>
+        </div>
+        <p class="app-label">sha-256</p>
+        <ul class="sums">
+          <li><span>NEON-ATLAS-Setup-0.3.1.exe</span><code id="sum-atlas-setup">7953e8cdebf4fbf66727e8431616d10952a777bfc60a85c08b866f78347709bc</code><button type="button" class="btn btn--ghost" data-copy="#sum-atlas-setup">copy<span class="sr-only"> the checksum</span></button></li>
+          <li><span>NEON-ATLAS-Portable-0.3.1.exe</span><code id="sum-atlas-portable">59dd7d24c5a4fd63ac8b4b6045a045035aa5df185590245b36ccfbd8d0fe1bc6</code><button type="button" class="btn btn--ghost" data-copy="#sum-atlas-portable">copy<span class="sr-only"> the checksum</span></button></li>
+        </ul>
+      </div>
+    </article>
+
   </section>
 
   <section aria-labelledby="readme-h">
@@ -95,7 +132,7 @@
     <div class="readme">
       <div>
         <h3>Windows is going to complain</h3>
-        <p>The exe isn't code signed (that costs money and I'm spending it on gas), so the first time you run it SmartScreen pops this up:</p>
+        <p>The exes aren't code signed (that costs money and I'm spending it on gas), so the first time you run one SmartScreen pops this up:</p>
         <div class="dlg" role="img" aria-label="The Windows protected your PC dialog. Click More info, then Run anyway.">
           <div class="dlg-bar"><span>Windows protected your PC</span><span class="dlg-x" aria-hidden="true">x</span></div>
           <div class="dlg-body">
@@ -108,13 +145,18 @@
         </div>
       </div>
       <div class="readme-side">
-        <h3>Installing</h3>
+        <h3>Installing Penance</h3>
         <ul class="readme-os">
           <li><b>1.</b> Run <code>Penance-2.2.0-win64.exe</code>, pick where it should go and hit Extract.</li>
           <li><b>2.</b> Open the <code>Penance</code> folder it made and start <code>Penance.exe</code>. Pin it to the taskbar while you're at it.</li>
         </ul>
-        <h3>Your data</h3>
-        <p>Saved in <code>%APPDATA%\ShredQuest</code>, with a daily backup next to it. To update, extract the new version over the old folder. Your data doesn't live in there, so it stays put.</p>
+        <p>Your data is saved in <code>%APPDATA%\ShredQuest</code>, with a daily backup next to it. To update, extract the new version over the old folder. Your data doesn't live in there, so it stays put.</p>
+        <h3>Installing NEON ATLAS</h3>
+        <ul class="readme-os">
+          <li><b>1.</b> Run <code>NEON-ATLAS-Setup-0.3.1.exe</code>. No questions asked: it installs, drops a shortcut on your desktop and opens.</li>
+          <li><b>2.</b> Or take the portable one and run it from wherever you like. It starts a few seconds slower because it unpacks itself every time.</li>
+        </ul>
+        <p>It needs internet, since everything on the map is fetched live. Settings and cache live in <code>%APPDATA%\neon-atlas</code>. To update, run the new installer over the old one. To remove it, go to Windows Settings, then Apps.</p>
       </div>
     </div>
   </section>

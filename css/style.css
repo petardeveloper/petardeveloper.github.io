@@ -1498,6 +1498,7 @@ html.no-fx .glitch::after { display: none; }
 }
 .floppy--red { --plastic: #3a0c11; --plastic-hi: #5f141b; }
 .floppy--grey { --plastic: #3b3940; --plastic-hi: #58555e; }
+.floppy--yellow { --plastic: #4a4407; --plastic-hi: #786e10; }
 .app:nth-of-type(even) .floppy { --tilt: 1.5deg; }
 
 .floppy-shutter {
